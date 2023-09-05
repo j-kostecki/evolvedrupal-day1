@@ -1,0 +1,22 @@
+uuid: fd9db70f-c502-46f4-9586-6f591b776eda
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - simple
+_core:
+  default_config_hash: hBHXB7hC05XU7pDYzETt-GUcpFlogK1gkjyAsg0Ym58
+id: simple_content
+theme: simple
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

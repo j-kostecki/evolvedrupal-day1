@@ -1,0 +1,25 @@
+uuid: 1eedfbbe-f1e0-4640-9ef5-75ad0f262e73
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:e161dbe4-ce19-435e-b300-717e58176781'
+  module:
+    - block_content
+  theme:
+    - simple
+id: simple_testblock
+theme: simple
+region: social
+weight: 0
+provider: null
+plugin: 'block_content:e161dbe4-ce19-435e-b300-717e58176781'
+settings:
+  id: 'block_content:e161dbe4-ce19-435e-b300-717e58176781'
+  label: test-block
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
